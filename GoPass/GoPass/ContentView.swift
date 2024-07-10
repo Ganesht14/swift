@@ -10,10 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            VStack {
+            VStack(spacing: 0) {
                 HeaderView()
-                Spacer() // Pushes the HeaderView to the top
+                Planview()
+                EventsView()
+
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+
         }
     }
 }

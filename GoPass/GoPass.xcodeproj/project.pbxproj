@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B604F7A2C3D14EC00F0962C /* Planview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B604F792C3D14EC00F0962C /* Planview.swift */; };
+		8B604F7C2C3D46ED00F0962C /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B604F7B2C3D46ED00F0962C /* EventsView.swift */; };
 		8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941572C3D056E00AF168E /* GoPassApp.swift */; };
 		8B89415A2C3D056E00AF168E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941592C3D056E00AF168E /* ContentView.swift */; };
 		8B89415C2C3D057000AF168E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B89415B2C3D057000AF168E /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B604F792C3D14EC00F0962C /* Planview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planview.swift; sourceTree = "<group>"; };
+		8B604F7B2C3D46ED00F0962C /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		8B8941542C3D056E00AF168E /* GoPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8941572C3D056E00AF168E /* GoPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPassApp.swift; sourceTree = "<group>"; };
 		8B8941592C3D056E00AF168E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				8B89415B2C3D057000AF168E /* Assets.xcassets */,
 				8B89415D2C3D057000AF168E /* Preview Content */,
 				8B8941812C3D05D700AF168E /* HeaderView.swift */,
+				8B604F792C3D14EC00F0962C /* Planview.swift */,
+				8B604F7B2C3D46ED00F0962C /* EventsView.swift */,
 			);
 			path = GoPass;
 			sourceTree = "<group>";
@@ -261,8 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B89415A2C3D056E00AF168E /* ContentView.swift in Sources */,
+				8B604F7C2C3D46ED00F0962C /* EventsView.swift in Sources */,
 				8B8941822C3D05D700AF168E /* HeaderView.swift in Sources */,
 				8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */,
+				8B604F7A2C3D14EC00F0962C /* Planview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
