@@ -14,18 +14,21 @@ struct HeaderView: View {
             Image("GoPass")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-                .frame(width: 60.0, height: 60.0)
+//                .frame(width: 60, height: 60)
+                .frame(height: 40)
             Spacer()
             ZStack {
-                Image(systemName: "bell.fill")
-                    .foregroundColor(Color.blue)
-                    .font(.body)
+                Image(systemName: "bell")
+                    .resizable()
+                    .frame(width: 25, height: 25)
+                    .foregroundColor(.blue)
                 Circle()
-                    .fill(Color.red)
-                    .frame(width: 10, height: 10)
-                    .offset(x: 6, y: -6)
+                    .foregroundColor(.red)
+                    .frame(width: 20, height: 20)
+                    .offset(x: 10, y: -10)
             }
         }
+        .padding()
     }
 }
 
