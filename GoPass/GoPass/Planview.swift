@@ -21,7 +21,7 @@ struct Planview: View {
                 Text("Plan your trip")
                     .font(.title2)
                     .fontWeight(.medium)
-                    .foregroundStyle(Color("plan"))
+                    .foregroundStyle(Color("primaryColor"))
                     .font(.system(size: 18))
                     .multilineTextAlignment(.leading)
                     .padding(.leading,5)
