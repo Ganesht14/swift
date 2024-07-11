@@ -13,21 +13,21 @@ struct ContentView: View {
         ZStack {
             NavigationView {
                 ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
-                        
+                    VStack(alignment: .leading) {
+                        Planview()
+                        EventsView()
                         TicketsTabView()
-                            .frame(maxWidth: .infinity)
-                            .padding(.horizontal, 16)
-                        
                         UpcomingEventView()
-                            .frame(maxWidth: .infinity)
-                            .padding(.horizontal, 16) 
                     }
+                    .frame(maxWidth: .infinity)
+
                     .padding(.vertical, 16)
                     .navigationBarTitle("", displayMode: .inline)
                     .navigationBarItems(leading: VStack(alignment: .leading, spacing: 20) {
                         VStack {
                             HeaderView()
+                            
+                            
                         }.frame(width: UIScreen.main.bounds.width * 0.9)
                     })
                 }

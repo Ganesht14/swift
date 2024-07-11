@@ -4,8 +4,8 @@ struct TicketsTabView: View {
     @State private var selectedTab: String = "Unused"
     let suggestedTicketsData = [
         ("DAY PASS 1","Local, Adult",  "$6.00", "Dart_carousel", "dart1"),
-        ("DAY PASS 2", "Local Adult", "$8.00", "Dart_carousel", "Logo2"),
-        ("DAY PASS 3", "Local Adult", "$10.00", "Dart_carousel", "Logo3")
+        ("DAY PASS 2", "Local Adult", "$8.00", "Dart_carousel", "dart1"),
+        ("DAY PASS 3", "Local Adult", "$10.00", "Dart_carousel", "dart1")
         // Add more tuples as needed
     ]
     
@@ -43,6 +43,7 @@ struct TicketsTabView: View {
                                 logoImage: ticketData.4
                             )
                             .id(ticketData.0)
+
                         }
                     }
                     .padding()
