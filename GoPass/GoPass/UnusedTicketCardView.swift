@@ -23,6 +23,7 @@ struct UnusedTicketCardView: View {
                     .foregroundColor(.blue)
             }
             .frame(height: 160.0)
+            Divider()
             Button(action: {
                 // Add your action here
             }) {

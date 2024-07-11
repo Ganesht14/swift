@@ -18,10 +18,12 @@ struct SuggestedTicketCardView: View {
     var body: some View {
         VStack {
             VStack {
-                Image(logoImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 60.0, height: 60.0)
+                HStack{
+                    Image(logoImage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60.0, height: 60.0)
+                }
                 Text(title)
                     .font(.title)
                     .foregroundColor(.white)
@@ -62,9 +64,11 @@ struct SuggestedTicketCardView: View {
     }
 }
 
-//struct SuggestedTicketCardView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SuggestedTicketCardView()
-//            .previewLayout(.sizeThatFits) // Adjust the preview layout
-//    }
-//}
+struct SuggestedTicketCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        SuggestedTicketCardView(title: "Register to sync", subtitle: "or buy tickets",
+                                price:"$6.00", backgroundImage: "Dart_carousel", logoImage: "Dart_carousel")
+        .previewLayout(.sizeThatFits) // Adjust the preview layout
+    }
+    
+}
