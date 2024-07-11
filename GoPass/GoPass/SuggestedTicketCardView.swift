@@ -1,10 +1,4 @@
-////
-////  SuggestedTicketCardView.swift
-////  GoPass
-////
-////  Created by provility on 09/07/24.
-////
-//
+
 import Foundation
 import SwiftUI
 
@@ -17,32 +11,32 @@ struct SuggestedTicketCardView: View {
     
     var body: some View {
         VStack {
-            VStack(alignment: .leading, spacing: 5) {
-                HStack {
+            VStack (alignment: .leading, spacing: 5) {
+                HStack{
                     Image(logoImage)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 60.0, height: 60.0)
-                    Spacer()
+                        .padding(.top,10)
+                         Spacer()
+
                 }
                 Text(title)
                     .font(.title)
-                    .foregroundColor(.white)
                     .fontWeight(.bold)
+                    .foregroundColor(.white)
                 Text(subtitle)
                     .font(.title2)
-                    .foregroundColor(.white)
                     .fontWeight(.bold)
+                    .foregroundColor(.white)
                 Text(price)
                     .font(.title2)
-                    .foregroundColor(.white)
                     .fontWeight(.bold)
+                    .foregroundColor(.white)
             }
-            
             .frame(maxWidth: .infinity)
             .frame(height: 160.0)
             .padding(.leading, 15)
-            
             .background(ZStack {
                 
                 Image(backgroundImage)
@@ -53,6 +47,7 @@ struct SuggestedTicketCardView: View {
                         .opacity(0.5)
                         .cornerRadius(10)
                     )
+                    .frame(height: 170)
             })
             Button(action: {
                 // Add your action here
@@ -61,9 +56,9 @@ struct SuggestedTicketCardView: View {
                     .font(.headline)
                     .foregroundColor(.blue)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 15)
-                    .padding(.bottom, 0.5)
+                    .padding(.leading, 10)
                     .frame(height: 40)
+                    .padding(.bottom, 10)
             }
         }
         .frame(width: UIScreen.main.bounds.width * 0.7, height: 220)
@@ -75,10 +70,11 @@ struct SuggestedTicketCardView: View {
 
 struct SuggestedTicketCardView_Previews: PreviewProvider {
     static var previews: some View {
-        SuggestedTicketCardView(title: "Register to sync", subtitle: "or buy tickets",
-                                price:"$6.00", backgroundImage: "Dart_carousel", logoImage: "Dart_carousel")
+        SuggestedTicketCardView(title: "DAY PASS", subtitle: "Local, Adult",
+            price:"US$6.00",
+            backgroundImage: "Dart_carousel",
+            logoImage: "dart1")
         .previewLayout(.sizeThatFits)
     }
+    
 }
-
-

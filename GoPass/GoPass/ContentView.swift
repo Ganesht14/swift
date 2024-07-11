@@ -18,12 +18,16 @@ struct ContentView: View {
                         .background(Color.white)
                     
                     ScrollView {
-                        VStack(alignment: .leading, spacing: 10) {
-                            
+                        VStack(alignment: .leading) {
+                            Planview()
+                                .frame(maxWidth: .infinity)
+                                .padding(.horizontal, 26)
+                            EventsView()
+                                .frame(maxWidth: .infinity)
+                                .padding(.horizontal, 26)
                             TicketsTabView()
                                 .frame(maxWidth: .infinity)
                                 .padding(.horizontal, 26)
-                            
                             ReportView()
                                 .frame(maxWidth: .infinity)
                                 .padding(.horizontal, 16)

@@ -18,14 +18,18 @@ struct UnusedTicketCardView: View {
                 .fontWeight(.bold)
                 .foregroundColor(.black)
                 .padding(.top, -0.5)
+                .padding(.leading,5)
+
+            
             
             Text(subtitle)
                 .font(.title2)
                 .fontWeight(.bold)
                 .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
-            
+                .padding(.leading,5)
             Spacer()
-            Divider()            
+            Divider()
+                .frame(width:270)
             Button(action: {
                 // Add your action here
             }) {
@@ -33,7 +37,7 @@ struct UnusedTicketCardView: View {
                     .font(.headline)
                     .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.leading, 5)
+                    .padding(.leading, 10)
                     .frame(height: 40)
                     .padding(.bottom, -10)
 
