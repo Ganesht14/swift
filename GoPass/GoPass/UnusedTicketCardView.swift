@@ -23,16 +23,14 @@ struct UnusedTicketCardView: View {
                 .font(.title2)
                 .fontWeight(.bold)
                 .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
-//                .foregroundColor(.blue)
             
             Spacer()
-            
+            Divider()            
             Button(action: {
                 // Add your action here
             }) {
                 Text("SIGN UP")
                     .font(.headline)
-//                    .foregroundColor(.blue)
                     .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 5)
@@ -42,7 +40,7 @@ struct UnusedTicketCardView: View {
             }
         }
         .padding([.leading, .top, .bottom, .trailing])
-        .frame(width: UIScreen.main.bounds.width * 0.7, height: 200)
+        .frame(width: UIScreen.main.bounds.width * 0.7, height: 220)
         .background(Color.white)
         .cornerRadius(10)
         .shadow(radius: 5)

@@ -28,12 +28,15 @@ struct SuggestedTicketCardView: View {
                 Text(title)
                     .font(.title)
                     .foregroundColor(.white)
+                    .fontWeight(.bold)
                 Text(subtitle)
                     .font(.title2)
                     .foregroundColor(.white)
+                    .fontWeight(.bold)
                 Text(price)
                     .font(.title2)
                     .foregroundColor(.white)
+                    .fontWeight(.bold)
             }
             
             .frame(maxWidth: .infinity)
@@ -59,10 +62,11 @@ struct SuggestedTicketCardView: View {
                     .foregroundColor(.blue)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.leading, 15)
+                    .padding(.bottom, 0.5)
                     .frame(height: 40)
             }
         }
-        .frame(width: UIScreen.main.bounds.width * 0.7, height: 200)
+        .frame(width: UIScreen.main.bounds.width * 0.7, height: 220)
         .background(Color.white)
         .cornerRadius(10)
         .shadow(radius: 5)
