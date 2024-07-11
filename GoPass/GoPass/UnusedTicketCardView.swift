@@ -23,6 +23,8 @@ struct UnusedTicketCardView: View {
                     .foregroundColor(.blue)
             }
             .frame(height: 160.0)
+            .padding(.top,10)
+            
             Divider()
             Button(action: {
                 // Add your action here
@@ -34,7 +36,7 @@ struct UnusedTicketCardView: View {
                     .frame(height: 40)
             }
         }
-        .frame(width: UIScreen.main.bounds.width * 0.7, height: 200)
+        .frame(width: UIScreen.main.bounds.width * 0.7, height: 220)
         .background(Color.white)
         .cornerRadius(10)
         .shadow(radius: 5)

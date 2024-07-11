@@ -26,12 +26,15 @@ struct SuggestedTicketCardView: View {
                 }
                 Text(title)
                     .font(.title)
+                    .fontWeight(.bold)
                     .foregroundColor(.white)
                 Text(subtitle)
                     .font(.title2)
+                    .fontWeight(.bold)
                     .foregroundColor(.white)
                 Text(price)
                     .font(.title2)
+                    .fontWeight(.bold)
                     .foregroundColor(.white)
             }
             .frame(maxWidth: .infinity)
@@ -45,7 +48,7 @@ struct SuggestedTicketCardView: View {
                     .overlay(Color(red: 0/255, green: 32/255, blue: 91/255)
                         .opacity(0.5)
                         .cornerRadius(10)
-                                    )
+                    )
             })
             Button(action: {
                 // Add your action here
@@ -55,9 +58,10 @@ struct SuggestedTicketCardView: View {
                     .foregroundColor(.blue)
                     .frame(maxWidth: .infinity)
                     .frame(height: 40)
+                    .padding(.bottom,16)
             }
         }
-        .frame(width: UIScreen.main.bounds.width * 0.7, height: 200)
+        .frame(width: UIScreen.main.bounds.width * 0.7, height: 220)
         .background(Color.white)
         .cornerRadius(10)
         .shadow(radius: 5)
@@ -66,9 +70,11 @@ struct SuggestedTicketCardView: View {
 
 struct SuggestedTicketCardView_Previews: PreviewProvider {
     static var previews: some View {
-        SuggestedTicketCardView(title: "Register to sync", subtitle: "or buy tickets",
-                                price:"$6.00", backgroundImage: "Dart_carousel", logoImage: "Dart_carousel")
-        .previewLayout(.sizeThatFits) // Adjust the preview layout
+        SuggestedTicketCardView(title: "DAY PASS", subtitle: "Local, Adult",
+            price:"US$6.00",
+            backgroundImage: "Dart_carousel",
+            logoImage: "dart1")
+        .previewLayout(.sizeThatFits)
     }
     
 }
