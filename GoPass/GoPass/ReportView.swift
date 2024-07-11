@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ReportView: View {
     var body: some View {
+        
         VStack {
-          
+        VStack {
+            
             HStack(spacing: 15.0) {
                 
                 Button(action: {
@@ -18,15 +20,16 @@ struct ReportView: View {
                 }) {
                     Label("Report a problem to DART",
                           systemImage: "checkmark.shield")
-                        .foregroundColor(.blue)
-                        .font(.title3)
-                        .padding()
-                        .background(Color.white)
-                        .cornerRadius(10)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 10)
-                                .stroke(Color.gray.opacity(0.3), lineWidth: 2)
-                        )
+                    .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
+//                    .foregroundColor(.blue)
+                    .font(.title3)
+                    .padding()
+                    .background(Color.white)
+                    .cornerRadius(10)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 10)
+                            .stroke(Color.gray.opacity(0.3), lineWidth: 2)
+                    )
                 }
                 
                 Button(action: {
@@ -45,6 +48,7 @@ struct ReportView: View {
             .padding(.bottom, 10.0)
             .padding(.horizontal, 6.5)
         }    }
+    }
 }
 
 struct ReportView_Previews: PreviewProvider {

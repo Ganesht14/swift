@@ -1,24 +1,27 @@
-//
-//  NearestView.swift
-//  GoPass
-//
-//  Created by RoshanSabika on 7/10/24.
-//
+////
+////  NearestView.swift
+////  GoPass
+////
+////  Created by RoshanSabika on 7/10/24.
+///
 
 import SwiftUI
 
 struct NearestView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack(alignment: .leading, spacing: 10) {
             Text("Nearest")
                 .font(.title)
                 .padding(.leading, 40)
+                .padding(.bottom, 10) // Adjust the padding as needed
+            
             ZStack(alignment: .leading) {
                 Rectangle()
                     .foregroundColor(.white)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.gray.opacity(0.3), lineWidth: 1)    )
+                            .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                    )
                     .frame(width: 415, height: 300)
                     .padding(.leading, 40)
                 
@@ -30,14 +33,14 @@ struct NearestView: View {
                     
                     Text("nearby")
                         .bold()
-                        .foregroundColor(.blue)
+                        .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255)) // Custom color #0071BA
                         .padding(.leading, 60)
                         .font(.largeTitle)
-                    
                 }
                 .padding(.bottom, 150)
             }
-        }    }
+        }
+    }
 }
 
 struct NearestView_Previews: PreviewProvider {
@@ -45,3 +48,4 @@ struct NearestView_Previews: PreviewProvider {
         NearestView()
     }
 }
+

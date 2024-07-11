@@ -10,36 +10,40 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            VStack(spacing: 0) {
-                HeaderView()
-                    .frame(maxWidth: .infinity)
-                    .padding(.horizontal, 16)
-                    .background(Color.white) // Ensure the header has a background color
-                
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
-                        
-                        TicketsTabView()
-                            .frame(maxWidth: .infinity)
-                            .padding(.horizontal, 16)
-                        
-                        UpcomingEventView()
-                            .frame(maxWidth: .infinity)
-                            .padding(.horizontal, 16)
-                    }
-                    .padding(.vertical, 16)
+            ZStack {
+                VStack(spacing: 0) {
+                    HeaderView()
+                        .frame(maxWidth: .infinity)
+                        .padding(.horizontal, 16)
+                        .background(Color.white)
                     
-                    ReportView()
-                    NearestView()
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 10) {
+                            
+                            TicketsTabView()
+                                .frame(maxWidth: .infinity)
+                                .padding(.horizontal, 26)
+                            
+                            ReportView()
+                                .frame(maxWidth: .infinity)
+                                .padding(.horizontal, 16)
+                            NearestView()
+                            
+                            UpcomingEventView()
+                                .frame(maxWidth: .infinity)
+                                .padding(.horizontal, 16)
+                        }
+                        .padding(.vertical, 16)
+                    }
+                    
+                    FooterView()
+                        .frame(maxWidth: .infinity)
+                        .padding(.horizontal, 16)
+                        .background(Color.white) 
                 }
-                
-                FooterView()
-                    .frame(maxWidth: .infinity)
-                    .padding(.horizontal, 16)
-                    .background(Color.white) // Ensure the footer has a background color
+                .navigationBarTitle("", displayMode: .inline)
+                .navigationBarHidden(true)
             }
-            .navigationBarTitle("", displayMode: .inline)
-            .navigationBarHidden(true) // Hide the default navigation bar
         }
     }
 }

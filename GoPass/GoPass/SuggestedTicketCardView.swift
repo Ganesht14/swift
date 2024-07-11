@@ -1,10 +1,10 @@
+////
+////  SuggestedTicketCardView.swift
+////  GoPass
+////
+////  Created by provility on 09/07/24.
+////
 //
-//  SuggestedTicketCardView.swift
-//  GoPass
-//
-//  Created by provility on 09/07/24.
-//
-
 import Foundation
 import SwiftUI
 
@@ -17,11 +17,14 @@ struct SuggestedTicketCardView: View {
     
     var body: some View {
         VStack {
-            VStack {
-                Image(logoImage)
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 60.0, height: 60.0)
+            VStack(alignment: .leading, spacing: 5) {
+                HStack {
+                    Image(logoImage)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 60.0, height: 60.0)
+                    Spacer()
+                }
                 Text(title)
                     .font(.title)
                     .foregroundColor(.white)
@@ -32,8 +35,11 @@ struct SuggestedTicketCardView: View {
                     .font(.title2)
                     .foregroundColor(.white)
             }
+            
             .frame(maxWidth: .infinity)
             .frame(height: 160.0)
+            .padding(.leading, 15)
+            
             .background(ZStack {
                 
                 Image(backgroundImage)
@@ -43,7 +49,7 @@ struct SuggestedTicketCardView: View {
                     .overlay(Color(red: 0/255, green: 32/255, blue: 91/255)
                         .opacity(0.5)
                         .cornerRadius(10)
-                                    )
+                    )
             })
             Button(action: {
                 // Add your action here
@@ -51,7 +57,8 @@ struct SuggestedTicketCardView: View {
                 Text("BUY TICKET")
                     .font(.headline)
                     .foregroundColor(.blue)
-                    .frame(maxWidth: .infinity)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.leading, 15)
                     .frame(height: 40)
             }
         }
@@ -62,9 +69,12 @@ struct SuggestedTicketCardView: View {
     }
 }
 
-//struct SuggestedTicketCardView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        SuggestedTicketCardView()
-//            .previewLayout(.sizeThatFits) // Adjust the preview layout
-//    }
-//}
+struct SuggestedTicketCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        SuggestedTicketCardView(title: "Register to sync", subtitle: "or buy tickets",
+                                price:"$6.00", backgroundImage: "Dart_carousel", logoImage: "Dart_carousel")
+        .previewLayout(.sizeThatFits)
+    }
+}
+
+
