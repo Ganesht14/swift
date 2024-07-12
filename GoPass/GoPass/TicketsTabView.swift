@@ -64,6 +64,7 @@ struct TicketsTabView: View {
                 TabButton(title: "Unused", isSelected: selectedTab == "Unused") {
                     withAnimation {
                         selectedTab = "Unused"
+                            
                     }
                 }
                     
@@ -79,8 +80,12 @@ struct TicketsTabView: View {
             ScrollViewReader { proxy in
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 20) {
-                        UnusedTicketCardView(title: "Register to sync", subtitle: "or buy tickets")
+                        UnusedTicketCardView(
+                        title: "Register to sync",
+                        subtitle: "or buy tickets")
                             .id("UnusedTicket")
+                            .padding(.leading,10)
+
                         ForEach(suggestedTicketsData, id: \.self.0) { ticketData in
                             SuggestedTicketCardView(
                                 title: ticketData.0,
@@ -90,6 +95,7 @@ struct TicketsTabView: View {
                                 logoImage: ticketData.4
                             )
                             .id(ticketData.0)
+                            .padding(.leading,10)
                         }
                     }
                     .padding()

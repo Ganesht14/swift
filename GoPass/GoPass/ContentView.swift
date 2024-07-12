@@ -21,21 +21,21 @@ struct ContentView: View {
                         VStack(alignment: .leading) {
                             Planview()
                                 .frame(maxWidth: .infinity)
-                                .padding(.horizontal, 26)
+                                .padding(.horizontal, 28)
                             EventsView()
                                 .frame(maxWidth: .infinity)
-                                .padding(.horizontal, 26)
+                                .padding(.horizontal, 30)
                             TicketsTabView()
                                 .frame(maxWidth: .infinity)
-                                .padding(.horizontal, 26)
+                                .padding(.horizontal, 27)
                             ReportView()
                                 .frame(maxWidth: .infinity)
-                                .padding(.horizontal, 16)
+                                .padding(.horizontal, 26)
                             NearestView()
                             
                             UpcomingEventView()
                                 .frame(maxWidth: .infinity)
-                                .padding(.horizontal, 16)
+                                .padding(.horizontal, 26)
                         }
                         .padding(.vertical, 16)
                     }
