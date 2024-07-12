@@ -29,13 +29,15 @@ struct FooterView: View {
                         .font(.footnote)
                 }
                 Spacer()
-                VStack {
-                    Image(systemName: "cart")
-                        .resizable()
-                        .frame(width: 25, height: 25)
-                    Text("BUY")
-                        .font(.footnote)
-                }
+                NavigationLink(destination: NearestView()) { // Navigate to BuyView on tap
+                                   VStack {
+                                       Image(systemName: "cart")
+                                           .resizable()
+                                           .frame(width: 25, height: 25)
+                                       Text("BUY")
+                                           .font(.footnote)
+                                   }
+                               }
                 Spacer()
                 VStack {
                     Image(systemName: "wallet.pass.fill")
@@ -56,9 +58,18 @@ struct FooterView: View {
         }
     }
 }
+//struct BuyView: View {
+//    var body: some View {
+//        Text("Buy View Content") // Replace with your actual view content
+//            .font(.largeTitle)
+//            .navigationTitle("Buy")
+//            .navigationBarTitleDisplayMode(.inline)
+//    }
+
 
 struct FooterView_Previews: PreviewProvider {
     static var previews: some View {
-        FooterView()
-    }
+        NavigationView { // Wrap in NavigationView for NavigationLink to work
+                   FooterView()
+               }    }
 }
