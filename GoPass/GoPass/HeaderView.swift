@@ -21,7 +21,6 @@ struct HeaderView: View {
                     .resizable()
                     .frame(width: 25, height: 25)
                     .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
-//                    .foregroundColor(.blue)
                 Circle()
                     .foregroundColor(.red)
                     .frame(width: 20, height: 20)

@@ -10,7 +10,7 @@ var body: some View {
             .padding(.top, 10)
             .foregroundColor(.black)
 
-        ScrollView(.horizontal) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
                 ForEach(1..<4) { index in
                     Button(action: {

@@ -13,8 +13,7 @@ struct NearestView: View {
             Text("Nearest")
                 .font(.title)
                 .padding(.leading, 40)
-                .padding(.bottom, 10) // Adjust the padding as needed
-            
+                .padding(.bottom, 10) 
             ZStack(alignment: .leading) {
                 Rectangle()
                     .foregroundColor(.white)

@@ -4,7 +4,6 @@
 ////
 ////  Created by provility on 09/07/24.
 ////
-//
 
 import SwiftUI
 import Foundation
@@ -53,7 +52,6 @@ struct UpcomingEventView: View {
                     Text("BUY TICKET")
                         .font(.headline)
                         .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
-//                        .foregroundColor(.blue)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .frame(height: 110)
                         .padding(.leading)
