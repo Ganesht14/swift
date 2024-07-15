@@ -22,6 +22,11 @@
 		8B8941882C3D239600AF168E /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941872C3D239600AF168E /* TabButtonView.swift */; };
 		8B89418A2C3D346900AF168E /* SuggestedTicketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941892C3D346900AF168E /* SuggestedTicketCardView.swift */; };
 		8B89418C2C3D377B00AF168E /* UpcomingEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89418B2C3D377B00AF168E /* UpcomingEventView.swift */; };
+		AD07EA992C4130F500A2B29B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EA982C4130F400A2B29B /* HomeTabView.swift */; };
+		AD07EA9B2C41311300A2B29B /* PlanTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EA9A2C41311300A2B29B /* PlanTabView.swift */; };
+		AD07EA9D2C41312500A2B29B /* WalletTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EA9C2C41312500A2B29B /* WalletTabView.swift */; };
+		AD07EA9F2C41313900A2B29B /* BuyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EA9E2C41313900A2B29B /* BuyTabView.swift */; };
+		AD07EAA12C41318200A2B29B /* MoreTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD07EAA02C41318200A2B29B /* MoreTabView.swift */; };
 		ADCC34162C3E7F6500F2E425 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34152C3E7F6500F2E425 /* ReportView.swift */; };
 		ADCC34182C3E7FA500F2E425 /* NearestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34172C3E7FA500F2E425 /* NearestView.swift */; };
 		ADCC341A2C3E7FB700F2E425 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34192C3E7FB700F2E425 /* FooterView.swift */; };
@@ -63,6 +68,11 @@
 		8B8941872C3D239600AF168E /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
 		8B8941892C3D346900AF168E /* SuggestedTicketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedTicketCardView.swift; sourceTree = "<group>"; };
 		8B89418B2C3D377B00AF168E /* UpcomingEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventView.swift; sourceTree = "<group>"; };
+		AD07EA982C4130F400A2B29B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		AD07EA9A2C41311300A2B29B /* PlanTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanTabView.swift; sourceTree = "<group>"; };
+		AD07EA9C2C41312500A2B29B /* WalletTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTabView.swift; sourceTree = "<group>"; };
+		AD07EA9E2C41313900A2B29B /* BuyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTabView.swift; sourceTree = "<group>"; };
+		AD07EAA02C41318200A2B29B /* MoreTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTabView.swift; sourceTree = "<group>"; };
 		ADCC34152C3E7F6500F2E425 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		ADCC34172C3E7FA500F2E425 /* NearestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestView.swift; sourceTree = "<group>"; };
 		ADCC34192C3E7FB700F2E425 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -131,6 +141,11 @@
 				ADCC34192C3E7FB700F2E425 /* FooterView.swift */,
 				8B73F21D2C3FF87600E09309 /* PlanView.swift */,
 				8B73F21F2C3FF88900E09309 /* EventsView.swift */,
+				AD07EA982C4130F400A2B29B /* HomeTabView.swift */,
+				AD07EA9A2C41311300A2B29B /* PlanTabView.swift */,
+				AD07EA9C2C41312500A2B29B /* WalletTabView.swift */,
+				AD07EA9E2C41313900A2B29B /* BuyTabView.swift */,
+				AD07EAA02C41318200A2B29B /* MoreTabView.swift */,
 			);
 			path = GoPass;
 			sourceTree = "<group>";
@@ -291,15 +306,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */,
+				AD07EA992C4130F500A2B29B /* HomeTabView.swift in Sources */,
 				8B8941842C3D21FA00AF168E /* TicketsTabView.swift in Sources */,
 				8B89418C2C3D377B00AF168E /* UpcomingEventView.swift in Sources */,
 				8B8941862C3D22C900AF168E /* UnusedTicketCardView.swift in Sources */,
+				AD07EAA12C41318200A2B29B /* MoreTabView.swift in Sources */,
 				ADCC34182C3E7FA500F2E425 /* NearestView.swift in Sources */,
 				8B8941882C3D239600AF168E /* TabButtonView.swift in Sources */,
 				8B89415A2C3D056E00AF168E /* ContentView.swift in Sources */,
 				ADCC341A2C3E7FB700F2E425 /* FooterView.swift in Sources */,
+				AD07EA9D2C41312500A2B29B /* WalletTabView.swift in Sources */,
 				ADCC34162C3E7F6500F2E425 /* ReportView.swift in Sources */,
 				8B8941822C3D05D700AF168E /* HeaderView.swift in Sources */,
+				AD07EA9B2C41311300A2B29B /* PlanTabView.swift in Sources */,
+				AD07EA9F2C41313900A2B29B /* BuyTabView.swift in Sources */,
 				8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */,
 				8B89418A2C3D346900AF168E /* SuggestedTicketCardView.swift in Sources */,
 				8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */,
