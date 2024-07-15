@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B16D9C32C413C2000CD7E39 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B16D9C22C413C2000CD7E39 /* BuyView.swift */; };
 		8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21D2C3FF87600E09309 /* PlanView.swift */; };
 		8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21F2C3FF88900E09309 /* EventsView.swift */; };
 		8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941572C3D056E00AF168E /* GoPassApp.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B16D9C22C413C2000CD7E39 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
 		8B73F21D2C3FF87600E09309 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		8B73F21F2C3FF88900E09309 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		8B8941542C3D056E00AF168E /* GoPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +143,15 @@
 				ADCC34192C3E7FB700F2E425 /* FooterView.swift */,
 				8B73F21D2C3FF87600E09309 /* PlanView.swift */,
 				8B73F21F2C3FF88900E09309 /* EventsView.swift */,
+<<<<<<< HEAD
 				AD07EA982C4130F400A2B29B /* HomeTabView.swift */,
 				AD07EA9A2C41311300A2B29B /* PlanTabView.swift */,
 				AD07EA9C2C41312500A2B29B /* WalletTabView.swift */,
 				AD07EA9E2C41313900A2B29B /* BuyTabView.swift */,
 				AD07EAA02C41318200A2B29B /* MoreTabView.swift */,
+=======
+				8B16D9C22C413C2000CD7E39 /* BuyView.swift */,
+>>>>>>> b715284290b28ffc67f889b3ca4b7a77809e04d4
 			);
 			path = GoPass;
 			sourceTree = "<group>";
@@ -306,7 +312,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */,
+<<<<<<< HEAD
 				AD07EA992C4130F500A2B29B /* HomeTabView.swift in Sources */,
+=======
+				8B16D9C32C413C2000CD7E39 /* BuyView.swift in Sources */,
+>>>>>>> b715284290b28ffc67f889b3ca4b7a77809e04d4
 				8B8941842C3D21FA00AF168E /* TicketsTabView.swift in Sources */,
 				8B89418C2C3D377B00AF168E /* UpcomingEventView.swift in Sources */,
 				8B8941862C3D22C900AF168E /* UnusedTicketCardView.swift in Sources */,
