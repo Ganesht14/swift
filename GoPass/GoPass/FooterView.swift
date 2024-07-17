@@ -13,16 +13,15 @@ struct FooterView: View {
     var body: some View {
         VStack{
             HStack {
-                NavigationLink(destination: HomePageView()) { // Navigate to BuyView on tap
-                    
+                NavigationLink(destination: HomePageView()) {
                     VStack {
-                        Image(systemName: "house") // Replace with your home icon
+                        Image(systemName: "house")
                             .resizable()
                             .frame(width: 25, height: 25)
                             .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
                         Text("HOME")
                             .font(.footnote)
-                            .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
+                            .foregroundColor(Color.red)
                     }
                 }
                 Spacer()
@@ -39,10 +38,10 @@ struct FooterView: View {
                     isActive: $isActive,
                     label: {
                         VStack {
-                            Image(systemName: "cart")
+                            Image("cart")
                                 .resizable()
-                                .frame(width: 25, height: 25)
-                                .foregroundColor(isActive ? .blue : .black) // Change color based on isActive
+                                .frame(width: 70, height: 70)
+                                .foregroundColor(isActive ? .blue : .black)
                             Text("BUY")
                                 .font(.footnote)
                                 .foregroundColor(isActive ? .blue : .black)
@@ -50,7 +49,7 @@ struct FooterView: View {
                     }
                 )
                 Spacer()
-                NavigationLink(destination: WalletView()) { // Navigate to BuyView on tap
+                NavigationLink(destination: WalletView()) { 
                     
                     VStack {
                         Image(systemName: "wallet.pass.fill")

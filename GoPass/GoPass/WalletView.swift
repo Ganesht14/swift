@@ -9,16 +9,34 @@ import SwiftUI
 
 struct WalletView: View {
     var body: some View {
-        VStack{
-            Text("WALLET VIEW")
+        HStack(alignment: .top) {
+            VStack {
+                Image("GoPass")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(height: 40)
+                Text("WALLET")
+                    .font(.headline)
+                    .fontWeight(.bold)
+                    .foregroundStyle(Color(hue: 0.628, saturation: 0.773, brightness: 0.39))
+                    .padding(.leading,-33.0)
+                    .padding(.top, -15)
+
+            }
+            Spacer()
             
-            FooterView()
-                .frame(maxWidth: .infinity)
-                .padding(.horizontal, 16)
-                .background(Color.white)
+            VStack {
+                Text("Add Funds")
+                    .font(.system(size: 25))
+                    .fontWeight(.bold)
+                    .foregroundStyle(Color("primaryColor"))
+                Spacer()
+            }
         }
+        .padding()
     }
 }
+
 
 struct WalletView_Previews: PreviewProvider {
     static var previews: some View {

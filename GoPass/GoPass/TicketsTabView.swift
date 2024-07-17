@@ -27,7 +27,7 @@ struct TicketsTabView: View {
                         selectedTab = "Unused"
                     }
                 }
-                    
+                
                 TabButton(title: "Suggested", isSelected: selectedTab == "Suggested") {
                     withAnimation {
                         selectedTab = "Suggested"

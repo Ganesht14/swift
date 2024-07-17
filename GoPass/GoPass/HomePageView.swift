@@ -9,8 +9,8 @@ import SwiftUI
 
 struct HomePageView: View {
     var body: some View {
-        NavigationView {
-            ZStack {
+//        NavigationView {
+//            ZStack {
                 VStack(spacing: 0) {
                 
                     ScrollView {
@@ -36,13 +36,14 @@ struct HomePageView: View {
                     }
                     
         
-                }
+            //    }
                 
                 .navigationBarTitle("", displayMode: .inline)
                 .navigationBarHidden(true)
             }
         }
-    }
+
+ //   }
 }
 
 

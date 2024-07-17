@@ -12,7 +12,7 @@ struct NearestView: View {
         VStack(alignment: .leading, spacing: 10) {
             Text("Nearest")
                 .font(.title)
-                .padding(.leading, 40)
+                .padding(.leading, 45)
                 .padding(.bottom, 10) 
             ZStack(alignment: .leading) {
                 Rectangle()
