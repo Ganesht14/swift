@@ -10,6 +10,9 @@
 		8B16D9C32C413C2000CD7E39 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B16D9C22C413C2000CD7E39 /* BuyView.swift */; };
 		8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21D2C3FF87600E09309 /* PlanView.swift */; };
 		8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21F2C3FF88900E09309 /* EventsView.swift */; };
+		8B801AE92C4530FD001D0E5F /* PlanMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B801AE82C4530FC001D0E5F /* PlanMapView.swift */; };
+		8B801AED2C453164001D0E5F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B801AEC2C453164001D0E5F /* HomePageView.swift */; };
+		8B801AEF2C453323001D0E5F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B801AEE2C453323001D0E5F /* WalletView.swift */; };
 		8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941572C3D056E00AF168E /* GoPassApp.swift */; };
 		8B89415A2C3D056E00AF168E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941592C3D056E00AF168E /* ContentView.swift */; };
 		8B89415C2C3D057000AF168E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B89415B2C3D057000AF168E /* Assets.xcassets */; };
@@ -23,6 +26,7 @@
 		8B8941882C3D239600AF168E /* TabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941872C3D239600AF168E /* TabButtonView.swift */; };
 		8B89418A2C3D346900AF168E /* SuggestedTicketCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8941892C3D346900AF168E /* SuggestedTicketCardView.swift */; };
 		8B89418C2C3D377B00AF168E /* UpcomingEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B89418B2C3D377B00AF168E /* UpcomingEventView.swift */; };
+		8BAE9B4A2C457910000D101B /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE9B492C457910000D101B /* HomeTabView.swift */; };
 		ADCC34162C3E7F6500F2E425 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34152C3E7F6500F2E425 /* ReportView.swift */; };
 		ADCC34182C3E7FA500F2E425 /* NearestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34172C3E7FA500F2E425 /* NearestView.swift */; };
 		ADCC341A2C3E7FB700F2E425 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC34192C3E7FB700F2E425 /* FooterView.swift */; };
@@ -49,6 +53,9 @@
 		8B16D9C22C413C2000CD7E39 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
 		8B73F21D2C3FF87600E09309 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		8B73F21F2C3FF88900E09309 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
+		8B801AE82C4530FC001D0E5F /* PlanMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMapView.swift; sourceTree = "<group>"; };
+		8B801AEC2C453164001D0E5F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		8B801AEE2C453323001D0E5F /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		8B8941542C3D056E00AF168E /* GoPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8941572C3D056E00AF168E /* GoPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoPassApp.swift; sourceTree = "<group>"; };
 		8B8941592C3D056E00AF168E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +72,7 @@
 		8B8941872C3D239600AF168E /* TabButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtonView.swift; sourceTree = "<group>"; };
 		8B8941892C3D346900AF168E /* SuggestedTicketCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedTicketCardView.swift; sourceTree = "<group>"; };
 		8B89418B2C3D377B00AF168E /* UpcomingEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventView.swift; sourceTree = "<group>"; };
+		8BAE9B492C457910000D101B /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
 		ADCC34152C3E7F6500F2E425 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 		ADCC34172C3E7FA500F2E425 /* NearestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestView.swift; sourceTree = "<group>"; };
 		ADCC34192C3E7FB700F2E425 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -134,6 +142,10 @@
 				8B73F21D2C3FF87600E09309 /* PlanView.swift */,
 				8B73F21F2C3FF88900E09309 /* EventsView.swift */,
 				8B16D9C22C413C2000CD7E39 /* BuyView.swift */,
+				8B801AE82C4530FC001D0E5F /* PlanMapView.swift */,
+				8B801AEC2C453164001D0E5F /* HomePageView.swift */,
+				8B801AEE2C453323001D0E5F /* WalletView.swift */,
+				8BAE9B492C457910000D101B /* HomeTabView.swift */,
 			);
 			path = GoPass;
 			sourceTree = "<group>";
@@ -294,7 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */,
+				8B801AE92C4530FD001D0E5F /* PlanMapView.swift in Sources */,
 				8B16D9C32C413C2000CD7E39 /* BuyView.swift in Sources */,
+				8BAE9B4A2C457910000D101B /* HomeTabView.swift in Sources */,
 				8B8941842C3D21FA00AF168E /* TicketsTabView.swift in Sources */,
 				8B89418C2C3D377B00AF168E /* UpcomingEventView.swift in Sources */,
 				8B8941862C3D22C900AF168E /* UnusedTicketCardView.swift in Sources */,
@@ -303,9 +317,11 @@
 				8B89415A2C3D056E00AF168E /* ContentView.swift in Sources */,
 				ADCC341A2C3E7FB700F2E425 /* FooterView.swift in Sources */,
 				ADCC34162C3E7F6500F2E425 /* ReportView.swift in Sources */,
+				8B801AEF2C453323001D0E5F /* WalletView.swift in Sources */,
 				8B8941822C3D05D700AF168E /* HeaderView.swift in Sources */,
 				8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */,
 				8B89418A2C3D346900AF168E /* SuggestedTicketCardView.swift in Sources */,
+				8B801AED2C453164001D0E5F /* HomePageView.swift in Sources */,
 				8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

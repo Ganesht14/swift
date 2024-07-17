@@ -1,16 +1,16 @@
 //
-//  BuyView.swift
+//  WalletView.swift
 //  GoPass
 //
-//  Created by provility on 12/07/24.
+//  Created by provility on 15/07/24.
 //
 
 import SwiftUI
 
-struct BuyView: View {
+struct WalletView: View {
     var body: some View {
         VStack{
-            Text("BUY VIEW")
+            Text("WALLET VIEW")
             
             FooterView()
                 .frame(maxWidth: .infinity)
@@ -20,8 +20,8 @@ struct BuyView: View {
     }
 }
 
-struct BuyView_Previews: PreviewProvider {
+struct WalletView_Previews: PreviewProvider {
     static var previews: some View {
-        BuyView()
+        WalletView()
     }
 }
