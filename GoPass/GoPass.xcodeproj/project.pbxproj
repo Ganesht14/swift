@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B16D9C32C413C2000CD7E39 /* BuyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B16D9C22C413C2000CD7E39 /* BuyView.swift */; };
+		8B2C2CA82C47DE1E0051F08A /* WalletTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2C2CA72C47DE1E0051F08A /* WalletTabView.swift */; };
 		8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21D2C3FF87600E09309 /* PlanView.swift */; };
 		8B73F2202C3FF88900E09309 /* EventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73F21F2C3FF88900E09309 /* EventsView.swift */; };
 		8B801AE92C4530FD001D0E5F /* PlanMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B801AE82C4530FC001D0E5F /* PlanMapView.swift */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		8B16D9C22C413C2000CD7E39 /* BuyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyView.swift; sourceTree = "<group>"; };
+		8B2C2CA72C47DE1E0051F08A /* WalletTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTabView.swift; sourceTree = "<group>"; };
 		8B73F21D2C3FF87600E09309 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
 		8B73F21F2C3FF88900E09309 /* EventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsView.swift; sourceTree = "<group>"; };
 		8B801AE82C4530FC001D0E5F /* PlanMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanMapView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				8B801AEE2C453323001D0E5F /* WalletView.swift */,
 				8BAE9B492C457910000D101B /* HomeTabView.swift */,
 				8BAE9B4B2C47ABA4000D101B /* CustomTabView.swift */,
+				8B2C2CA72C47DE1E0051F08A /* WalletTabView.swift */,
 			);
 			path = GoPass;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				8B8941822C3D05D700AF168E /* HeaderView.swift in Sources */,
 				8B8941582C3D056E00AF168E /* GoPassApp.swift in Sources */,
 				8B89418A2C3D346900AF168E /* SuggestedTicketCardView.swift in Sources */,
+				8B2C2CA82C47DE1E0051F08A /* WalletTabView.swift in Sources */,
 				8B801AED2C453164001D0E5F /* HomePageView.swift in Sources */,
 				8B73F21E2C3FF87600E09309 /* PlanView.swift in Sources */,
 			);

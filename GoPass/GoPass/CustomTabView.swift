@@ -4,7 +4,9 @@ struct CustomTabView: UIViewControllerRepresentable {
     func makeUIViewController(context: Context) -> CustomTabBarController {
         let tabBarController = CustomTabBarController()
         
-        let homeView = UIHostingController(rootView: NavigationView { HomePageView() })
+//        let homeView = UIHostingController(rootView: NavigationView { HomePageView() })
+        let homeView = UIHostingController(rootView: NavigationView { HomePageView(showHeader: true) })
+
         homeView.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.fill"), tag: 0)
         
         let planView = UIHostingController(rootView: NavigationView { BuyView() })

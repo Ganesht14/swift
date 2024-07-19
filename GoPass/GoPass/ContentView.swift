@@ -10,13 +10,13 @@ struct ContentView: View {
                         .frame(maxWidth: .infinity)
                     //           .padding(.horizontal,16)
                         .background(Color.white)
-                    
+                }
                     HomeTabView()
                         .frame(maxWidth: .infinity)
                         .padding(.horizontal, 16)
                         .padding(.top, 20)
                         .background(Color.white)
-                }
+                
                 .navigationBarTitle("", displayMode: .inline)
                 .navigationBarHidden(true)
             }

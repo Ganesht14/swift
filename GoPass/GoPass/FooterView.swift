@@ -13,18 +13,18 @@ struct FooterView: View {
     var body: some View {
         VStack{
             HStack {
-                NavigationLink(destination: HomePageView()) {
-                    VStack {
-                        Image(systemName: "house")
-                            .resizable()
-                            .frame(width: 25, height: 25)
-                            .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
-                        Text("HOME")
-                            .font(.footnote)
-                            .foregroundColor(Color.red)
-                    }
-                }
-                Spacer()
+//                NavigationLink(destination: HomePageView()) {
+//                    VStack {
+//                        Image(systemName: "house")
+//                            .resizable()
+//                            .frame(width: 25, height: 25)
+//                            .foregroundColor(Color(red: 0/255, green: 113/255, blue: 186/255))
+//                        Text("HOME")
+//                            .font(.footnote)
+//                            .foregroundColor(Color.red)
+//                    }
+//                }
+//                Spacer()
                 VStack {
                     Image("map_png")
                         .resizable()

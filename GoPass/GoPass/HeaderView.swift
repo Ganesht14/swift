@@ -3,6 +3,7 @@ import Foundation
 import SwiftUI
 
 struct HeaderView: View {
+
     var body: some View {
         VStack(spacing: 0) {
             HStack {
